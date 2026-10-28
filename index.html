@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0d0c">
+  <meta name="description" content="Welcome to Gorillas Lab. Explore Forest, find Untitled Studios on social media, and play on Meta Quest.">
+  <title>Gorilla's Lab</title>
+  <link rel="icon" type="image/png" href="assets/favicon-transparent.png?v=2">
+  <link rel="preload" href="assets/vcr-osd-mono.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#page-content">Skip to content</a>
+  <div class="terminal">
+    <div class="backdrop" aria-hidden="true"><div class="specks"></div><div class="sweep"></div></div>
+    <header class="header"><a href="#home" class="wordmark" aria-label="Gorillas Lab home">GORILLAS LAB</a></header>
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="frame nav-item" href="#home" data-page="home" aria-current="page">HOME</a>
+      <a class="frame nav-item" href="#socials" data-page="socials">SOCIALS</a>
+      <a class="frame nav-item" href="#maps" data-page="maps">MAPS</a>
+      <a class="frame nav-item" href="https://www.meta.com/experiences/gorillas-lab/9945172845577818/" target="_blank" rel="noopener noreferrer" aria-label="Play Gorillas Lab on Meta (opens a new tab)">PLAY<span class="sr-only"> on Meta</span></a>
+    </nav>
+    <main id="page-content" tabindex="-1">
+      <section class="page home-page" id="home" aria-labelledby="home-heading">
+        <h1 id="home-heading">Welcome.</h1>
+        <div class="home-actions">
+          <a class="frame action" href="#socials">SOCIALS <svg viewBox="0 0 12 20" aria-hidden="true"><path d="m2 2 8 8-8 8"/></svg></a>
+          <a class="frame action" href="#maps">MAPS <svg viewBox="0 0 12 20" aria-hidden="true"><path d="m2 2 8 8-8 8"/></svg></a>
+        </div>
+      </section>
+      <section class="page socials-page" id="socials" aria-labelledby="socials-heading" hidden>
+        <h1 id="socials-heading">Socials</h1>
+        <div class="social-links">
+          <a class="frame social-link" href="https://www.youtube.com/@OfficalUntitledStudios" target="_blank" rel="noopener noreferrer"><span>YOUTUBE</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg><span class="sr-only"> (opens a new tab)</span></a>
+          <a class="frame social-link" href="https://www.tiktok.com/@untitled_studiosvr" target="_blank" rel="noopener noreferrer"><span>TIKTOK</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg><span class="sr-only"> (opens a new tab)</span></a>
+          <a class="frame social-link" href="https://www.meta.com/experiences/gorillas-lab/9945172845577818/" target="_blank" rel="noopener noreferrer"><span>META</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg><span class="sr-only"> (opens a new tab)</span></a>
+          <a class="frame social-link" href="https://discord.gg/WnDDq7C6Tw" target="_blank" rel="noopener noreferrer"><span>DISCORD</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg><span class="sr-only"> (opens a new tab)</span></a>
+        </div>
+      </section>
+      <section class="page maps-page" id="maps" aria-labelledby="maps-heading" hidden>
+        <h1 id="maps-heading">Maps</h1>
+        <figure class="map-entry">
+          <figcaption>Forest</figcaption>
+          <img src="assets/forest-grasspark.png?v=2" width="2436" height="1211" alt="Forest in Gorillas Lab: a gorilla statue on a grassy hill surrounded by trees, with a river and rolling hills beneath a blue sky.">
+        </figure>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
